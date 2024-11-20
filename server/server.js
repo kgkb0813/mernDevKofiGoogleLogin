@@ -3,6 +3,14 @@ const connectDB =require("./config/db")
 const cookieParser = require("cookie-parser")
 const dotenv = require("dotenv").config()
 const cors = require('cors');
+const path = require('path');
+
+// for render.com
+const __dirname = path.resolve();
+app.use(express.static(path.join(__dirname, '/admin/dist')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'admin', 'dist', 'index.html'));
+});
 
 const auth = require("./middleware/authMiddleware")
 const bookingRoutes = require("./routes/bookingRoutes")
