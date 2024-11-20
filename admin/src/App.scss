@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-bottom: 8rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  &.center {              // <h1 className='heading center'>Register</h1>
+    text-align: center;
+  }
+}
+
+.form-wrapper {
+  width: 540px;
+  max-width: 100%;
+  margin: 0 auto;
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    text-indent: 10px;
+    font-size: 1rem;
+  }
+
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px 0 5px 0;
+  }
+}
+
+.alert {
+  z-index: 9999;
+}
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+} */

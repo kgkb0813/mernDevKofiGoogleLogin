@@ -1,0 +1,33 @@
+@import 'variables.scss';
+
+.booking {
+  text-align: center;
+  font-weight: 300;
+  .booking-title {
+    font-size: 32px;
+  }
+  .booking-name {
+    font-size: 28px;
+    padding-top: 20px;
+  }
+  .booking-roomname {
+    font-size: 25px;
+    padding: 15px 0;
+  }
+  .booking-etc {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin: 30px 10px;
+    width: 140px;
+    padding: 10px 0;
+  }
+  .booking-delete {
+    background-color: $danger-color;
+  }
+}

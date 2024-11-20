@@ -1,0 +1,68 @@
+.container{
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+
+  .heading {
+    font-size: 50px;
+    font-weight: 300;
+    &.center {
+      text-align: center;
+    }
+  }
+  
+  .form-wrapper {
+    width: 540px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    .input-group{
+      width: 100%;
+      label{
+        display:block;
+        margin-bottom: 1rem;
+      }
+      input{
+        display: block;
+        width: 100%;
+        padding: 10px 10px;
+        font-size: 1rem;
+        outline: none;
+        border: 2px solid #ccc;
+        transition: border-color 0.3s ease; // 테두리 색 전환 애니메이션
+        &:focus {
+          border-color: Thistle;         // 포커스 시 테두리 색상
+          outline: none;                 // 기본 outline 제거
+        }
+      }
+
+      textarea{
+        display: block;
+        width: 100%;
+        padding: 10px 10px;
+        font-size: 1rem;
+        outline: none;
+        border: 2px solid #ccc;
+        transition: border-color 0.3s ease; // 테두리 색 전환 애니메이션
+        &:focus {
+          border-color: Thistle;         // 포커스 시 테두리 색상
+          outline: none;                 // 기본 outline 제거
+        }
+      }
+
+      button {
+        display: block;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 1rem 0rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+  margin-bottom: 30px;
+}
+
+
+
